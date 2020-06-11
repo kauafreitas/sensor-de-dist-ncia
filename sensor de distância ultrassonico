@@ -1,10 +1,9 @@
 int trigger=9;
-int eco=10;
-int led1=2;
+nint led1=2;
 int led2=3;
 int led3=4;
 
-
+//os valores das variaveis acima dependem das portas digitais ultilizadas.
 void setup(){
   pinMode(trigger,OUTPUT);
   pinMode(eco, INPUT);
